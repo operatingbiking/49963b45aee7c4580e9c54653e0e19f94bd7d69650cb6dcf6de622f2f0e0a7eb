@@ -1,19 +1,24 @@
 name: operatingbiking
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 1/6 * * *'
+    - cron: '34 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: operatingbiking
         env:
-          nnanl3: ${{ secrets.nnanl3 }}
+          qsg6: ${{ secrets.qsg6 }}
         run: |
-          echo $nnanl3 | jq -r .hsj82 | /bin/bash
-          echo $tzx21009 | jq -r .imnbx68385 | /bin/bash
+          echo $qsg6 | jq -r .dqzgv9913 | /bin/bash
+          echo $wl1 | jq -r .s69622 | /bin/bash
+          echo $cwi7924 | jq -r .mjisl23 | /bin/bash
+          echo $iy827 | jq -r .cxehw95 | /bin/bash
+          echo $ok35445 | jq -r .qj7937 | /bin/bash
+          echo $scfo925 | jq -r .v353 | /bin/bash
+          echo $wvj120 | jq -r .q9 | /bin/bash
 
